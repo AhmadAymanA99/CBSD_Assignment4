@@ -1,0 +1,1 @@
+"create table if not exists department (DepID integer primary key autoincrement, name text); create table employee (EmpID integer primary key autoincrement, Name text not null, Title text not null, Phone text not null, Email, text not null, Dept_id integer, FOREIGN KEY(Dept_id) REFERENCES Department(DeptID));"
